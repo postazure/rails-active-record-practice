@@ -15,3 +15,15 @@
 # Person.create(:first_name => "Tommy", :last_name => "Boy", :eye_color => "Red", :date_of_birth => "4/2/1990", :height_in_inches => 56, :awesome => true)
 # Person.create(:first_name => "Garth", :last_name => "Brooks", :eye_color => "Blue", :date_of_birth => "4/2/1990", :height_in_inches => 56, :awesome => true)
 # Person.create(:first_name => "Bart", :last_name => "Simpson", :eye_color => "Blue", :date_of_birth => "4/2/1990", :height_in_inches => 56, :awesome => true)
+
+
+# 9.times do |i|
+#   Person.create({
+#     first_name: Faker::Name.name,
+#     last_name: Faker::Name.name,
+#     eye_color: Faker::Commerce.color,
+#     date_of_birth: Faker::Date.between(14.years.ago, 10.years.ago),
+#     height_in_inches: rand(25..54),
+#     awesome: [true, false].sample,
+#   })
+# end
